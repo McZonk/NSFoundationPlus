@@ -283,7 +283,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/NSFoundationPlus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSFoundationPlus/NSFoundationPlus-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSFoundationPlus-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -295,7 +295,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/NSFoundationPlus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSFoundationPlus/NSFoundationPlus-Prefix.pch";
+				GCC_PREFIX_HEADER = "NSFoundationPlus-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

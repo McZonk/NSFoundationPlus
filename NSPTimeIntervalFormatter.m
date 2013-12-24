@@ -29,14 +29,14 @@ static NSString* FormattedInteger(NSTimeInterval value, NSUInteger length, NSUIn
 		}
 	}
 	
-	NSString* format = [NSString stringWithFormat:@"%%0%dd", length];
+	NSString* format = [NSString stringWithFormat:@"%%0%dd", (int)length];
 	return [NSString stringWithFormat:format, (int)value];
 }
 
 static NSString* FormattedFraction(const NSTimeInterval t, const NSUInteger length) {
 	NSTimeInterval fraction = fmod(t, 1.0);
 
-	NSString* format = [NSString stringWithFormat:@"%%0%d.0f", length];
+	NSString* format = [NSString stringWithFormat:@"%%0%d.0f", (int)length];
 	return [NSString stringWithFormat:format, fraction * pow(10, length)];
 }
 
@@ -44,7 +44,7 @@ static NSString* FormattedFractionWithBase(const NSTimeInterval t, const NSUInte
 	NSTimeInterval fraction = fmod(t, 1.0);
 	fraction *= base;
 	
-	NSString* format = [NSString stringWithFormat:@"%%0%dd", length];
+	NSString* format = [NSString stringWithFormat:@"%%0%dd", (int)length];
 	return [NSString stringWithFormat:format, (int)fraction];
 }
 

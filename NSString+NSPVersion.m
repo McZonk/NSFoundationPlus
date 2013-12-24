@@ -33,11 +33,11 @@ static NSUInteger BugfixVersion(NSUInteger version)
 	
 	if(bugfix > 0)
 	{
-		return [self stringWithFormat:@"%u.%u.%u", major, minor, bugfix];
+		return [self stringWithFormat:@"%u.%u.%u", (int)major, (int)minor, (int)bugfix];
 	}
 	else
 	{
-		return [self stringWithFormat:@"%u.%u", major, minor];
+		return [self stringWithFormat:@"%u.%u", (int)major, (int)minor];
 	}
 }
 
