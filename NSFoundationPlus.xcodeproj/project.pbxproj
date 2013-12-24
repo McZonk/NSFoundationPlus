@@ -136,7 +136,7 @@
 				50C5F2D4186992550057564D /* NSUserDefaults+AccessorForType.h */,
 				50C5F2D5186992550057564D /* NSUserDefaults+AccessorForType.m */,
 			);
-			path = NSFoundationPlus;
+			name = NSFoundationPlus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +321,7 @@
 				50C5F2B8186991B80057564D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
