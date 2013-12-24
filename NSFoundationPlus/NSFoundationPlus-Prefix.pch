@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSFoundationPlus' target in the 'NSFoundationPlus' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
