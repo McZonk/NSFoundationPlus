@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50BBEECD18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */; };
+		50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */; };
 		50C5F297186991B80057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F296186991B80057564D /* Foundation.framework */; };
 		50C5F2D6186992550057564D /* NSBundle+NSPPreferedLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2BD186992550057564D /* NSBundle+NSPPreferedLocalization.m */; };
 		50C5F2D7186992550057564D /* NSData+NSPBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2BF186992550057564D /* NSData+NSPBase64String.m */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		50BBEECB18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPString.h"; sourceTree = "<group>"; };
 		50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSPString.m"; sourceTree = "<group>"; };
+		50BBEECE18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPRemoveAttributes.h"; sourceTree = "<group>"; };
+		50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSPRemoveAttributes.m"; sourceTree = "<group>"; };
 		50C5F293186991B80057564D /* libNSFoundationPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSFoundationPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F296186991B80057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F2A4186991B80057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -126,6 +129,8 @@
 				50C5F2C7186992550057564D /* NSHTTPURLResponse+NSPHeaderFields.m */,
 				50BBEECB18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.h */,
 				50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */,
+				50BBEECE18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.h */,
+				50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */,
 				50C5F2C8186992550057564D /* NSOperationQueue+NSPCancelOperations.h */,
 				50C5F2C9186992550057564D /* NSOperationQueue+NSPCancelOperations.m */,
 				50C5F2CA186992550057564D /* NSPReachability.h */,
@@ -196,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50C5F2DB186992550057564D /* NSOperationQueue+NSPCancelOperations.m in Sources */,
+				50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */,
 				50C5F2D9186992550057564D /* NSFileCoordinator+NSPCoordinateItem.m in Sources */,
 				50C5F2D7186992550057564D /* NSData+NSPBase64String.m in Sources */,
 				50C5F2DE186992550057564D /* NSString+NSPOSType.m in Sources */,
