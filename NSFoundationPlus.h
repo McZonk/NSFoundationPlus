@@ -1,7 +1,6 @@
 
 #import "NSBundle+NSPPreferedLocalization.h"
 
-#import "NSData+NSPBase64String.h"
 #import "NSData+NSPHexadecimalString.h"
 
 #import "NSFileCoordinator+NSPCoordinateItem.h"
