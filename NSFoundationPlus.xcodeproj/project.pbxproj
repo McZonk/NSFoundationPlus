@@ -11,7 +11,6 @@
 		50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */; };
 		50C5F297186991B80057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F296186991B80057564D /* Foundation.framework */; };
 		50C5F2D6186992550057564D /* NSBundle+NSPPreferedLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2BD186992550057564D /* NSBundle+NSPPreferedLocalization.m */; };
-		50C5F2D7186992550057564D /* NSData+NSPBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2BF186992550057564D /* NSData+NSPBase64String.m */; };
 		50C5F2D8186992550057564D /* NSData+NSPHexadecimalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2C1186992550057564D /* NSData+NSPHexadecimalString.m */; };
 		50C5F2D9186992550057564D /* NSFileCoordinator+NSPCoordinateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2C3186992550057564D /* NSFileCoordinator+NSPCoordinateItem.m */; };
 		50C5F2DA186992550057564D /* NSHTTPURLResponse+NSPHeaderFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2C7186992550057564D /* NSHTTPURLResponse+NSPHeaderFields.m */; };
@@ -47,8 +46,6 @@
 		50C5F2A7186991B80057564D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		50C5F2BC186992550057564D /* NSBundle+NSPPreferedLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NSPPreferedLocalization.h"; sourceTree = "<group>"; };
 		50C5F2BD186992550057564D /* NSBundle+NSPPreferedLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NSPPreferedLocalization.m"; sourceTree = "<group>"; };
-		50C5F2BE186992550057564D /* NSData+NSPBase64String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSPBase64String.h"; sourceTree = "<group>"; };
-		50C5F2BF186992550057564D /* NSData+NSPBase64String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSPBase64String.m"; sourceTree = "<group>"; };
 		50C5F2C0186992550057564D /* NSData+NSPHexadecimalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSPHexadecimalString.h"; sourceTree = "<group>"; };
 		50C5F2C1186992550057564D /* NSData+NSPHexadecimalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSPHexadecimalString.m"; sourceTree = "<group>"; };
 		50C5F2C2186992550057564D /* NSFileCoordinator+NSPCoordinateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileCoordinator+NSPCoordinateItem.h"; sourceTree = "<group>"; };
@@ -119,8 +116,6 @@
 				50C5F2C5186992550057564D /* NSFoundationPlus.h */,
 				50C5F2BC186992550057564D /* NSBundle+NSPPreferedLocalization.h */,
 				50C5F2BD186992550057564D /* NSBundle+NSPPreferedLocalization.m */,
-				50C5F2BE186992550057564D /* NSData+NSPBase64String.h */,
-				50C5F2BF186992550057564D /* NSData+NSPBase64String.m */,
 				50C5F2C0186992550057564D /* NSData+NSPHexadecimalString.h */,
 				50C5F2C1186992550057564D /* NSData+NSPHexadecimalString.m */,
 				50C5F2C2186992550057564D /* NSFileCoordinator+NSPCoordinateItem.h */,
@@ -203,7 +198,6 @@
 				50C5F2DB186992550057564D /* NSOperationQueue+NSPCancelOperations.m in Sources */,
 				50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */,
 				50C5F2D9186992550057564D /* NSFileCoordinator+NSPCoordinateItem.m in Sources */,
-				50C5F2D7186992550057564D /* NSData+NSPBase64String.m in Sources */,
 				50C5F2DE186992550057564D /* NSString+NSPOSType.m in Sources */,
 				50BBEECD18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m in Sources */,
 				50C5F2DA186992550057564D /* NSHTTPURLResponse+NSPHeaderFields.m in Sources */,
