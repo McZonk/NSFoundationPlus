@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5078F43218AA19AB00770EBC /* NSString+NSPParagraphIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */; };
 		50BBEECD18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */; };
 		50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */; };
 		50C5F297186991B80057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F296186991B80057564D /* Foundation.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5078F43018AA19AB00770EBC /* NSString+NSPParagraphIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSPParagraphIndex.h"; sourceTree = "<group>"; };
+		5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSPParagraphIndex.m"; sourceTree = "<group>"; };
 		50BBEECB18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPString.h"; sourceTree = "<group>"; };
 		50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSPString.m"; sourceTree = "<group>"; };
 		50BBEECE18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPRemoveAttributes.h"; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				50C5F2CD186992550057564D /* NSPTimeIntervalFormatter.m */,
 				50C5F2CE186992550057564D /* NSString+NSPOSType.h */,
 				50C5F2CF186992550057564D /* NSString+NSPOSType.m */,
+				5078F43018AA19AB00770EBC /* NSString+NSPParagraphIndex.h */,
+				5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */,
 				50C5F2D0186992550057564D /* NSString+NSPVersion.h */,
 				50C5F2D1186992550057564D /* NSString+NSPVersion.m */,
 				50C5F2D2186992550057564D /* NSURL+AppStoreSupport.h */,
@@ -208,6 +213,7 @@
 				50C5F2DD186992550057564D /* NSPTimeIntervalFormatter.m in Sources */,
 				50C5F2D6186992550057564D /* NSBundle+NSPPreferedLocalization.m in Sources */,
 				50C5F2E0186992550057564D /* NSURL+AppStoreSupport.m in Sources */,
+				5078F43218AA19AB00770EBC /* NSString+NSPParagraphIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
