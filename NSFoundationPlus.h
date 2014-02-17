@@ -5,6 +5,8 @@
 
 #import "NSFileCoordinator+NSPCoordinateItem.h"
 
+#import "NSFileManager+NSPURLForDirectoryInDomain.h"
+
 #import "NSHTTPURLResponse+NSPHeaderFields.h"
 
 #import "NSMutableAttributedString+NSPString.h"
