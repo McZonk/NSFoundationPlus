@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5078F43218AA19AB00770EBC /* NSString+NSPParagraphIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */; };
 		509B2EA618B4DA5100C76D2D /* NSPHTTPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B2EA518B4DA5100C76D2D /* NSPHTTPConstants.m */; };
+		50B7728618B5515900D586AB /* NSMutableData+NSPAppend.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B7728518B5515900D586AB /* NSMutableData+NSPAppend.m */; };
 		50BBEECD18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */; };
 		50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */; };
 		50C2CAC218B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2CAC118B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.m */; };
@@ -43,6 +44,8 @@
 		5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSPParagraphIndex.m"; sourceTree = "<group>"; };
 		509B2EA418B4DA5100C76D2D /* NSPHTTPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPHTTPConstants.h; sourceTree = "<group>"; };
 		509B2EA518B4DA5100C76D2D /* NSPHTTPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPHTTPConstants.m; sourceTree = "<group>"; };
+		50B7728418B5515900D586AB /* NSMutableData+NSPAppend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+NSPAppend.h"; sourceTree = "<group>"; };
+		50B7728518B5515900D586AB /* NSMutableData+NSPAppend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+NSPAppend.m"; sourceTree = "<group>"; };
 		50BBEECB18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPString.h"; sourceTree = "<group>"; };
 		50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSPString.m"; sourceTree = "<group>"; };
 		50BBEECE18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPRemoveAttributes.h"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */,
 				50BBEECE18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.h */,
 				50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */,
+				50B7728418B5515900D586AB /* NSMutableData+NSPAppend.h */,
+				50B7728518B5515900D586AB /* NSMutableData+NSPAppend.m */,
 				50C5F2C8186992550057564D /* NSOperationQueue+NSPCancelOperations.h */,
 				50C5F2C9186992550057564D /* NSOperationQueue+NSPCancelOperations.m */,
 				509B2EA418B4DA5100C76D2D /* NSPHTTPConstants.h */,
@@ -219,6 +224,7 @@
 				50C5F2DA186992550057564D /* NSHTTPURLResponse+NSPHeaderFields.m in Sources */,
 				50C5F2D8186992550057564D /* NSData+NSPHexadecimalString.m in Sources */,
 				50C5F2DF186992550057564D /* NSString+NSPVersion.m in Sources */,
+				50B7728618B5515900D586AB /* NSMutableData+NSPAppend.m in Sources */,
 				50C5F2DC186992550057564D /* NSPReachability.m in Sources */,
 				50C5F2E1186992550057564D /* NSUserDefaults+AccessorForType.m in Sources */,
 				509B2EA618B4DA5100C76D2D /* NSPHTTPConstants.m in Sources */,
