@@ -14,6 +14,8 @@
 
 #import "NSOperationQueue+NSPCancelOperations.h"
 
+#import "NSPHTTPConstants.h"
+
 #import "NSString+NSPOSType.h"
 #import "NSString+NSPParagraphIndex.h"
 #import "NSString+NSPVersion.h"
