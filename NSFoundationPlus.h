@@ -14,6 +14,8 @@
 #import "NSMutableAttributedString+NSPString.h"
 #import "NSMutableAttributedString+NSPRemoveAttributes.h"
 
+#import "NSMutableData+NSPAppend.h"
+
 #import "NSOperationQueue+NSPCancelOperations.h"
 
 #import "NSPHTTPConstants.h"
