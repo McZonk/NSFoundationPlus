@@ -1,26 +1,34 @@
-//
-//  NSOperationQueue+NSPCancelOperations.m
-//  CCMA
-//
-//  Created by Maximilian Christ on 13/11/13.
-//  Copyright (c) 2013 Boinx Software. All rights reserved.
-//
-
 #import "NSOperationQueue+NSPCancelOperations.h"
 
 @implementation NSOperationQueue (NSPCancelOperations)
 
-- (void)cancelOperationsBelowPriority:(NSOperationQueuePriority)priority
+- (NSUInteger)cancelOperationsWithHandler:(BOOL(^)(NSOperation *operation))handler
 {
-	NSArray *operations = [self.operations copy];
+	if(handler == nil)
+	{
+		return 0;
+	}
 	
+	NSUInteger cancelledOperations = 0;
+	
+	NSArray *operations = [self.operations copy];
 	for(NSOperation *operation in operations)
 	{
-		if(operation.queuePriority < priority)
+		if(handler(operation))
 		{
 			[operation cancel];
+			cancelledOperations += 1;
 		}
 	}
+	
+	return cancelledOperations;
+}
+
+- (NSUInteger)cancelOperationsBelowPriority:(NSOperationQueuePriority)priority
+{
+	return [self cancelOperationsWithHandler:^BOOL(NSOperation *operation) {
+		return operation.queuePriority < priority;
+	}];
 }
 
 @end
