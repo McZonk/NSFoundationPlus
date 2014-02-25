@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5061E38018B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5061E37F18B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.m */; };
+		5061E38618B3A6040065FF91 /* NSPHTTPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5061E38518B3A6040065FF91 /* NSPHTTPConstants.m */; };
+		5061E38918B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 5061E38818B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.m */; };
 		5078F43218AA19AB00770EBC /* NSString+NSPParagraphIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */; };
 		50BBEECD18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECC18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m */; };
 		50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */; };
 		50C2CAC218B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2CAC118B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.m */; };
+		50C2CB2518B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2CB2418B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.m */; };
 		50C5F297186991B80057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F296186991B80057564D /* Foundation.framework */; };
 		50C5F2D6186992550057564D /* NSBundle+NSPPreferedLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2BD186992550057564D /* NSBundle+NSPPreferedLocalization.m */; };
 		50C5F2D8186992550057564D /* NSData+NSPHexadecimalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2C1186992550057564D /* NSData+NSPHexadecimalString.m */; };
@@ -21,7 +25,7 @@
 		50C5F2DD186992550057564D /* NSPTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2CD186992550057564D /* NSPTimeIntervalFormatter.m */; };
 		50C5F2DE186992550057564D /* NSString+NSPOSType.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2CF186992550057564D /* NSString+NSPOSType.m */; };
 		50C5F2DF186992550057564D /* NSString+NSPVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2D1186992550057564D /* NSString+NSPVersion.m */; };
-		50C5F2E0186992550057564D /* NSURL+AppStoreSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2D3186992550057564D /* NSURL+AppStoreSupport.m */; };
+		50C5F2E0186992550057564D /* NSURL+NSPAppStoreSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2D3186992550057564D /* NSURL+NSPAppStoreSupport.m */; };
 		50C5F2E1186992550057564D /* NSUserDefaults+AccessorForType.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F2D5186992550057564D /* NSUserDefaults+AccessorForType.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +42,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5061E37E18B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSPURLEncodedParameters.h"; sourceTree = "<group>"; };
+		5061E37F18B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSPURLEncodedParameters.m"; sourceTree = "<group>"; };
+		5061E38418B3A6040065FF91 /* NSPHTTPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPHTTPConstants.h; sourceTree = "<group>"; };
+		5061E38518B3A6040065FF91 /* NSPHTTPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPHTTPConstants.m; sourceTree = "<group>"; };
+		5061E38718B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+NSPHTTPHeaderValues.h"; sourceTree = "<group>"; };
+		5061E38818B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+NSPHTTPHeaderValues.m"; sourceTree = "<group>"; };
 		5078F43018AA19AB00770EBC /* NSString+NSPParagraphIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSPParagraphIndex.h"; sourceTree = "<group>"; };
 		5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSPParagraphIndex.m"; sourceTree = "<group>"; };
 		50BBEECB18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPString.h"; sourceTree = "<group>"; };
@@ -46,6 +56,8 @@
 		50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+NSPRemoveAttributes.m"; sourceTree = "<group>"; };
 		50C2CAC018B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+NSPURLForDirectoryInDomain.h"; sourceTree = "<group>"; };
 		50C2CAC118B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+NSPURLForDirectoryInDomain.m"; sourceTree = "<group>"; };
+		50C2CB2318B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+NSPURLWithoutParameters.h"; sourceTree = "<group>"; };
+		50C2CB2418B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NSPURLWithoutParameters.m"; sourceTree = "<group>"; };
 		50C5F293186991B80057564D /* libNSFoundationPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSFoundationPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F296186991B80057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F2A4186991B80057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -70,8 +82,8 @@
 		50C5F2CF186992550057564D /* NSString+NSPOSType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSPOSType.m"; sourceTree = "<group>"; };
 		50C5F2D0186992550057564D /* NSString+NSPVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSPVersion.h"; sourceTree = "<group>"; };
 		50C5F2D1186992550057564D /* NSString+NSPVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSPVersion.m"; sourceTree = "<group>"; };
-		50C5F2D2186992550057564D /* NSURL+AppStoreSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+AppStoreSupport.h"; sourceTree = "<group>"; };
-		50C5F2D3186992550057564D /* NSURL+AppStoreSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+AppStoreSupport.m"; sourceTree = "<group>"; };
+		50C5F2D2186992550057564D /* NSURL+NSPAppStoreSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+NSPAppStoreSupport.h"; sourceTree = "<group>"; };
+		50C5F2D3186992550057564D /* NSURL+NSPAppStoreSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NSPAppStoreSupport.m"; sourceTree = "<group>"; };
 		50C5F2D4186992550057564D /* NSUserDefaults+AccessorForType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+AccessorForType.h"; sourceTree = "<group>"; };
 		50C5F2D5186992550057564D /* NSUserDefaults+AccessorForType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+AccessorForType.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +148,8 @@
 				50BBEECF18A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m */,
 				50C5F2C8186992550057564D /* NSOperationQueue+NSPCancelOperations.h */,
 				50C5F2C9186992550057564D /* NSOperationQueue+NSPCancelOperations.m */,
+				5061E38418B3A6040065FF91 /* NSPHTTPConstants.h */,
+				5061E38518B3A6040065FF91 /* NSPHTTPConstants.m */,
 				50C5F2CA186992550057564D /* NSPReachability.h */,
 				50C5F2CB186992550057564D /* NSPReachability.m */,
 				50C5F2CC186992550057564D /* NSPTimeIntervalFormatter.h */,
@@ -146,10 +160,16 @@
 				5078F43118AA19AB00770EBC /* NSString+NSPParagraphIndex.m */,
 				50C5F2D0186992550057564D /* NSString+NSPVersion.h */,
 				50C5F2D1186992550057564D /* NSString+NSPVersion.m */,
-				50C5F2D2186992550057564D /* NSURL+AppStoreSupport.h */,
-				50C5F2D3186992550057564D /* NSURL+AppStoreSupport.m */,
+				50C5F2D2186992550057564D /* NSURL+NSPAppStoreSupport.h */,
+				50C5F2D3186992550057564D /* NSURL+NSPAppStoreSupport.m */,
+				50C2CB2318B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.h */,
+				50C2CB2418B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.m */,
+				5061E38718B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.h */,
+				5061E38818B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.m */,
 				50C5F2D4186992550057564D /* NSUserDefaults+AccessorForType.h */,
 				50C5F2D5186992550057564D /* NSUserDefaults+AccessorForType.m */,
+				5061E37E18B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.h */,
+				5061E37F18B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.m */,
 			);
 			name = NSFoundationPlus;
 			sourceTree = "<group>";
@@ -205,11 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5061E38918B3A9650065FF91 /* NSURLRequest+NSPHTTPHeaderValues.m in Sources */,
 				50C5F2DB186992550057564D /* NSOperationQueue+NSPCancelOperations.m in Sources */,
+				5061E38018B39DB90065FF91 /* NSDictionary+NSPURLEncodedParameters.m in Sources */,
 				50BBEED018A04A4600AEE1CC /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */,
 				50C5F2D9186992550057564D /* NSFileCoordinator+NSPCoordinateItem.m in Sources */,
 				50C2CAC218B1D43A0021E514 /* NSFileManager+NSPURLForDirectoryInDomain.m in Sources */,
 				50C5F2DE186992550057564D /* NSString+NSPOSType.m in Sources */,
+				50C2CB2518B2C70C0021E514 /* NSURL+NSPURLWithoutParameters.m in Sources */,
+				5061E38618B3A6040065FF91 /* NSPHTTPConstants.m in Sources */,
 				50BBEECD18A0497E00AEE1CC /* NSMutableAttributedString+NSPString.m in Sources */,
 				50C5F2DA186992550057564D /* NSHTTPURLResponse+NSPHeaderFields.m in Sources */,
 				50C5F2D8186992550057564D /* NSData+NSPHexadecimalString.m in Sources */,
@@ -218,7 +242,7 @@
 				50C5F2E1186992550057564D /* NSUserDefaults+AccessorForType.m in Sources */,
 				50C5F2DD186992550057564D /* NSPTimeIntervalFormatter.m in Sources */,
 				50C5F2D6186992550057564D /* NSBundle+NSPPreferedLocalization.m in Sources */,
-				50C5F2E0186992550057564D /* NSURL+AppStoreSupport.m in Sources */,
+				50C5F2E0186992550057564D /* NSURL+NSPAppStoreSupport.m in Sources */,
 				5078F43218AA19AB00770EBC /* NSString+NSPParagraphIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

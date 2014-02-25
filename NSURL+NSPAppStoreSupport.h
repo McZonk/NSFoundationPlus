@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSURL (AppStoreSupport)
+@interface NSURL (NSPAppStoreSupport)
 
 + (NSURL*)appURLWithAppID:(NSString*)appID;
 
