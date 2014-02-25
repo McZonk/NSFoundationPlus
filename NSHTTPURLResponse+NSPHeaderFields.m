@@ -1,23 +1,17 @@
-//
-//  NSHTTPURLResponse+NSPHeaderFields.m
-//  CCMA
-//
-//  Created by Maximilian Christ on 19/11/13.
-//  Copyright (c) 2013 Boinx Software. All rights reserved.
-//
-
 #import "NSHTTPURLResponse+NSPHeaderFields.h"
+
+#import "NSPHTTPConstants.h"
 
 @implementation NSHTTPURLResponse (NSPHeaderFields)
 
 - (NSString *)contentType
 {
-	return self.allHeaderFields[@"Content-Type"];
+	return self.allHeaderFields[NSPHTTPHeaderContentType];
 }
 
 - (NSNumber *)contentLength
 {
-	NSString *value = self.allHeaderFields[@"Content-Length"];
+	NSString *value = self.allHeaderFields[NSPHTTPHeaderContentLength];
 	if(value == nil)
 	{
 		return nil;
