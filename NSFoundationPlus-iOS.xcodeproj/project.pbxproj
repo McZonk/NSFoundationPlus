@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50A40DE019C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A40DDF19C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.m */; };
 		50D79E1318BCFA4200058BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D79E1218BCFA4200058BAE /* Foundation.framework */; };
 		50D79E6318BCFA7D00058BAE /* NSBundle+NSPPreferedLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D79E3A18BCFA7D00058BAE /* NSBundle+NSPPreferedLocalization.m */; };
 		50D79E6418BCFA7D00058BAE /* NSData+NSPHexadecimalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D79E3C18BCFA7D00058BAE /* NSData+NSPHexadecimalString.m */; };
@@ -43,6 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		50A40DDE19C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NSPExtractObject.h"; sourceTree = "<group>"; };
+		50A40DDF19C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NSPExtractObject.m"; sourceTree = "<group>"; };
 		50D79E0F18BCFA4200058BAE /* libNSFoundationPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSFoundationPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D79E1218BCFA4200058BAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50D79E2018BCFA4200058BAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -147,6 +150,8 @@
 				50D79E4218BCFA7D00058BAE /* NSFileManager+NSPURLForDirectoryInDomain.m */,
 				50D79E4518BCFA7D00058BAE /* NSHTTPURLResponse+NSPHeaderFields.h */,
 				50D79E4618BCFA7D00058BAE /* NSHTTPURLResponse+NSPHeaderFields.m */,
+				50A40DDE19C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.h */,
+				50A40DDF19C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.m */,
 				50D79E7718BCFAA300058BAE /* NSMutableAttributedString */,
 				50D79E4B18BCFA7D00058BAE /* NSMutableData+NSPAppend.h */,
 				50D79E4C18BCFA7D00058BAE /* NSMutableData+NSPAppend.m */,
@@ -259,6 +264,7 @@
 				50D79E7018BCFA7D00058BAE /* NSString+NSPOSType.m in Sources */,
 				50D79E6918BCFA7D00058BAE /* NSMutableAttributedString+NSPRemoveAttributes.m in Sources */,
 				50D79E6E18BCFA7D00058BAE /* NSPReachability.m in Sources */,
+				50A40DE019C6F9CA00764B2C /* NSMutableArray+NSPExtractObject.m in Sources */,
 				50D79E6818BCFA7D00058BAE /* NSHTTPURLResponse+NSPHeaderFields.m in Sources */,
 				50D79E6B18BCFA7D00058BAE /* NSMutableData+NSPAppend.m in Sources */,
 				50D79E6D18BCFA7D00058BAE /* NSPHTTPConstants.m in Sources */,
