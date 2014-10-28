@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505C2D1419FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 505C2D1219FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.h */; };
+		505C2D1519FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C2D1319FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.m */; };
 		50A40DE919C6FF5600764B2C /* NSMutableArray+NSPExtractObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A40DE119C6FF5600764B2C /* NSMutableArray+NSPExtractObject.h */; };
 		50A40DEA19C6FF5600764B2C /* NSMutableArray+NSPExtractObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A40DE219C6FF5600764B2C /* NSMutableArray+NSPExtractObject.m */; };
 		50A40DEB19C6FF5600764B2C /* NSMutableAttributedString+NSPRemoveAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A40DE319C6FF5600764B2C /* NSMutableAttributedString+NSPRemoveAttributes.h */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		505C2D1219FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLComponents+NSPQueryComponents.h"; sourceTree = "<group>"; };
+		505C2D1319FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+NSPQueryComponents.m"; sourceTree = "<group>"; };
 		50A40DE119C6FF5600764B2C /* NSMutableArray+NSPExtractObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NSPExtractObject.h"; sourceTree = "<group>"; };
 		50A40DE219C6FF5600764B2C /* NSMutableArray+NSPExtractObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NSPExtractObject.m"; sourceTree = "<group>"; };
 		50A40DE319C6FF5600764B2C /* NSMutableAttributedString+NSPRemoveAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+NSPRemoveAttributes.h"; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 				50B8FAEA18945A1400F7B187 /* NSString+NSPOSType.m */,
 				50B8FAEB18945A1400F7B187 /* NSString+NSPVersion.h */,
 				50B8FAEC18945A1400F7B187 /* NSString+NSPVersion.m */,
+				505C2D1219FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.h */,
+				505C2D1319FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.m */,
 				50B8FAEF18945A1400F7B187 /* NSUserDefaults+AccessorForType.h */,
 				50B8FAF018945A1400F7B187 /* NSUserDefaults+AccessorForType.m */,
 			);
@@ -182,6 +188,7 @@
 				50B8FAF118945A1400F7B187 /* NSBundle+NSPPreferedLocalization.h in Headers */,
 				50B8FB0318945A1400F7B187 /* NSString+NSPVersion.h in Headers */,
 				50A40DE919C6FF5600764B2C /* NSMutableArray+NSPExtractObject.h in Headers */,
+				505C2D1419FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.h in Headers */,
 				50B8FAFF18945A1400F7B187 /* NSPTimeIntervalFormatter.h in Headers */,
 				50B8FAFD18945A1400F7B187 /* NSPReachability.h in Headers */,
 				50B8FAF518945A1400F7B187 /* NSData+NSPHexadecimalString.h in Headers */,
@@ -260,6 +267,7 @@
 				50B8FB0818945A1400F7B187 /* NSUserDefaults+AccessorForType.m in Sources */,
 				50B8FB0018945A1400F7B187 /* NSPTimeIntervalFormatter.m in Sources */,
 				50B8FAF218945A1400F7B187 /* NSBundle+NSPPreferedLocalization.m in Sources */,
+				505C2D1519FFB4B900687ABF /* NSURLComponents+NSPQueryComponents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
